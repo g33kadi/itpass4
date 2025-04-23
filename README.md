@@ -1,22 +1,19 @@
-# 💰 Financial Planner Telegram Bot
+# Assignment 4.2: Анализ данных по животноводству в Республике Казахстан (2024 год)
 
-A simple Telegram bot to track income, budget categories and expenses.
+## Описание
 
-## Features
-- Set income and budgets
-- Log expenses
-- View summaries
-- Enable/disable notifications
+Анализ основных показателей развития животноводства в Республике Казахстан за 2024 год. Включает загрузку, очистку, первичный анализ и визуализацию данных.
 
-## Commands
-- `/start` – Welcome message
-- `/help` – Help menu
-- `/config` – Setup income and budgets
-- `/log` – Add expense
-- `/summary` – See spending summary
-- `/notifyon`, `/notifyoff` – Toggle notifications
+## Структура проекта
 
-## Setup
+- `data/` — исходные данные
+- `notebooks/` — Jupyter Notebook с анализом
+- `README.md` — описание проекта
+- `requirements.txt` — список зависимостей
+
+## Как запустить
+
+1. Установите зависимости:
+
 ```bash
 pip install -r requirements.txt
-python bot.py
