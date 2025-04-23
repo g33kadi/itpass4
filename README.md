@@ -1,19 +1,19 @@
-# Assignment 4.2: Анализ данных по животноводству в Республике Казахстан (2024 год)
+# Assignment 4.2: Data Analysis of Livestock Development in the Republic of Kazakhstan (2024)
 
-## Описание
+## Description
 
-Анализ основных показателей развития животноводства в Республике Казахстан за 2024 год. Включает загрузку, очистку, первичный анализ и визуализацию данных.
+This project analyzes the main indicators of livestock development in Kazakhstan for the year 2024. It includes data loading, cleaning, exploratory analysis, and basic visualizations to understand the structure of the dataset.
 
-## Структура проекта
+## Project Structure
 
-- `data/` — исходные данные
-- `notebooks/` — Jupyter Notebook с анализом
-- `README.md` — описание проекта
-- `requirements.txt` — список зависимостей
+- `data/` — raw dataset in Excel format
+- `screenshots/` — saved plots (histogram and bar chart)
+- `analysis.py` — Python script for analysis
+- `requirements.txt` — list of required Python packages
 
-## Как запустить
+## How to Run
 
-1. Установите зависимости:
+1. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
